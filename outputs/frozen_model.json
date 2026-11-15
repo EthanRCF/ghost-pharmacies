@@ -1,0 +1,41 @@
+{
+  "final_features": [
+    "within_500m",
+    "within_1km",
+    "within_3km",
+    "meters_to_next",
+    "grocery_1km",
+    "clinic_1km",
+    "bus_1km",
+    "local_rel_rent",
+    "walk_near",
+    "is_CVS",
+    "is_Costco",
+    "is_Independent",
+    "is_Kaiser",
+    "is_Rayleys",
+    "is_Safeway",
+    "is_Walgreens",
+    "is_Walmart"
+  ],
+  "final_params": {
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_samples_leaf": 1,
+    "n_estimators": 100
+  },
+  "seed": 42,
+  "baseline_features": [
+    "is_CVS",
+    "is_Costco",
+    "is_Independent",
+    "is_Kaiser",
+    "is_Rayleys",
+    "is_Safeway",
+    "is_Walgreens",
+    "is_Walmart"
+  ],
+  "cv": "StratifiedGroupKFold 5x5, groups = 50 m sites, training rows only",
+  "cv_auc_model": 0.6779282055236934,
+  "cv_auc_baseline": 0.6108308295349796
+}
