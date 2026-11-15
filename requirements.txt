@@ -1,7 +1,8 @@
 # Pinned versions for running locally. Colab already ships pandas, numpy,
 # scikit-learn, matplotlib and seaborn; the notebook only installs folium there.
+# Versions chosen to install on Python 3.11 and newer.
 pandas==3.1.1
-numpy==2.5.4
+numpy==2.4.6
 scikit-learn==1.9.1
 matplotlib==3.11.2
 seaborn==0.13.2
